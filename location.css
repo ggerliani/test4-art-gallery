@@ -1,0 +1,121 @@
+/* mobile-location-button-output */
+
+.mobile-location-img {
+    position: relative;
+    height: 574px;
+    width: 100%;
+
+}
+
+button{
+    background: none;
+    border: none;
+
+}
+.location-header{
+    display: flex;
+}
+
+.location-header h1 {
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+}
+.king-street-h2 {
+    margin-top: 28px;
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    color: #D5966C;
+    font-weight: 900;
+
+
+}
+
+ 
+.back-to-home{
+    top: 0;
+    position:absolute;
+    display: flex;
+
+}
+.left-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height:72px;
+    background: #D5966C;
+
+}
+.left-arrow-black-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 72px;
+    width: 208px;
+    background: #151515;
+
+}
+
+.info-container{
+    padding: 48px 16px 56px 16px;
+    background-color: #151515;
+}
+.our-location-h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+
+.info-container p  {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Outfit';
+    line-height: 28px;
+}
+
+
+
+.text-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+footer{
+    padding: 48px 32px 49.5px 32px;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    background: #D5966C;
+
+}
+footer h1{
+    color: #151515;
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 20px;
+}
+footer p{
+    font-weight: 300;
+    font-size: 16px;
+    font-family: 'Outfit';
+    line-height:26px;
+    color:#151515;
+
+}
+.soc-networks{
+    color: #151515;
+
+    display: flex;
+    gap: 20px;
+}
+
+
+/*end of the mobile-location-button-output */

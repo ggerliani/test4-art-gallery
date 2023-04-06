@@ -1,0 +1,266 @@
+body {
+    width: 100vw
+}
+
+main  {
+    padding: 16px;
+}
+
+.mobile-img{
+
+    width: 100%;
+    height: 240px;
+}
+.modern-art-gallery{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.modern-art-gallery h1{
+    width: 285px;
+    font-family: 'Big Shoulders Display';
+    font-size: 60px;
+    font-weight: 900;
+    color: #151515;
+    
+}
+.modern-art-gallery .gallery-p{
+    font-family: 'Outfit';
+    color:  #444444;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    
+}
+
+.location-button{
+    display: flex;
+    
+}
+.location-button:hover{
+    cursor: pointer;
+}
+
+
+/* mobile-location-button-output */
+
+.mobile-location-img {
+    position: relative;
+    height: 574px;
+    width: 100%;
+
+}
+.location-header{
+    display: flex;
+}
+
+.location-header h1 {
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 4px;
+}
+.king-street-h2 {
+    margin-top: 28px;
+    font-family: 'Big Shoulders Display';
+    font-size: 32px;
+    color: #D5966C;
+    font-weight: 900;
+
+
+}
+
+ 
+.back-to-home{
+    top: 0;
+    position:absolute;
+    display: flex;
+
+}
+.left-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height:72px;
+    background: #D5966C;
+
+}
+.left-arrow-black-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 72px;
+    width: 208px;
+    background: #151515;
+
+}
+
+.info-container{
+    padding: 48px 16px 56px 16px;
+    background-color: #151515;
+}
+.our-location-h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 50px;
+    color: white;
+}
+
+.info-container p  {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Outfit';
+    line-height: 28px;
+}
+
+
+
+.text-group{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+/*end of the mobile-location-button-output */
+ 
+
+
+.location-button a{
+    display: flex;
+}
+
+button{
+    background: #151515;
+    border: none;
+    height: 72px;
+    width: 204px;
+}
+button .buttonp{
+    font-family: 'Big Shoulders Display';
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.right-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height:72px;
+    background: #D5966C;
+
+
+}
+
+
+.mobile-second-img{
+    margin-top: 88px;
+    height: 320px;
+    width: 100%;
+}
+
+.your-day-at-the-gallery{
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 25px;
+}
+.your-day-at-the-gallery h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    font-size: 50px;
+    color: #151515;
+}
+.your-day-at-the-gallery p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+
+
+.group-of-images {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.first-img-in-g {
+    width: 100%;
+    height: 480px;
+}
+
+.second-img-in-g {
+    width: 100%;
+    height: 200px;
+
+}
+
+.come-and-be-inspired {
+    padding: 48px 24px 48px 24px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    background: #151515;
+    max-width: 100%;
+    /* height: 320px; */
+}
+
+.come-and-be-inspired h1{
+    font-family: 'Big Shoulders Display';
+    font-weight: 900;
+    color: White;
+    font-size: 50px;
+}
+.come-and-be-inspired p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 28px;
+    
+
+}
+
+
+
+
+
+.footer-box{
+    margin-top: 104px;
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 32px;
+    gap: 38px;
+}
+
+.footer-box h1{
+    max-width: 90px;
+    font-family: 'Big Shoulders Display';
+    color: white;
+    font-size: 21px;
+}
+.footer-box p{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+
+}
+.social-network-logos{
+
+    display: flex;
+    gap: 20px;
+}
